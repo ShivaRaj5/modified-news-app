@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar';
 const App=(props)=>{
-  const apikey=process.env.REACT_APP_NEWS_API
+  const apikey="efcef553cb024ef1aa49b37810e9f076";
   const pageSize=6;
   const [progress, setProgress] = useState(0)
     return (
